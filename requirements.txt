@@ -1,0 +1,20 @@
+# Core deep-learning stack (Colab ships compatible versions; these are minimums)
+torch>=2.2
+torchvision>=0.17
+transformers>=4.44
+accelerate>=0.34
+bitsandbytes>=0.46.1
+
+# Dataset and utilities
+datasets>=2.21
+pillow>=10.0
+requests>=2.31
+pandas>=2.1
+numpy>=1.26
+scipy>=1.11
+tqdm>=4.66
+psutil>=5.9
+
+# Analysis and figures
+matplotlib>=3.8
+seaborn>=0.13
