@@ -26,7 +26,7 @@ I ran a controlled comparison of two open-source multimodal models, LLaVA-1.5-7B
 
 LLaVA stayed balanced across both conditions. BLIP-2 didn't just perform worse overall: it developed a strong directional bias. When the image *actually supported* the caption, BLIP-2 called it a contradiction most of the time. Both between-model differences are statistically significant (entailment: z = 30.29, p < .001; contradiction: z = 3.70, p < .001).
 
-![Per-condition accuracy with 95% CI](results/fig1_per_condition_accuracy.png)
+![Per-condition accuracy with 95% CI](results/fig5_1.png)
 
 ## Why this happened (and why I'm not overclaiming it)
 
