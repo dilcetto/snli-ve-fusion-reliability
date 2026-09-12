@@ -58,7 +58,7 @@ Everything runs end to end on a free-tier Colab T4 (16 GB VRAM). No API keys, no
 2. **LLaVA-1.5-7B:** 4-bit NF4 quantisation via bitsandbytes; yes/no question prompt. Inference over all 1,000 examples, then the model is unloaded to free memory.
 3. **Prompt ablation for BLIP-2:** question formats produced unparseable output, so a completion format (`"{hypothesis} The answer is"`) was selected; the ablation experiments are documented in the notebook.
 4. **BLIP-2-OPT-2.7B:** rebuilt on the identical 1,000-example sample and run fp16 (it fits the T4 unquantised; a documented asymmetry with LLaVA). Scored on the same pairs.
-5. **Analysis:** per-condition accuracy, accuracy gaps, 95% CIs, and the figure above (`results/fig1_per_condition_accuracy.png`).
+5. **Analysis:** per-condition accuracy, accuracy gaps, 95% CIs, and the figure above (`results/fig5_1.png`).
 
 ### Quick view without re-running inference
 
@@ -74,7 +74,7 @@ The results are saved as CSVs in [`results/`](results/). In the notebook, runnin
 
 ```
 ├── README.md
-├── notebook/snli_ve_fusion_eval.ipynb   # full pipeline (Colab, T4)
+├── notebook/thesis.ipynb   # full pipeline (Colab, T4)
 ├── results/                             # raw predictions (CSV) + Figure 5.1
 ├── docs/thesis.pdf                      # full methodology, literature review, limitations
 ├── requirements.txt
